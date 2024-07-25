@@ -46,7 +46,9 @@ export default function Projects() {
                 flex: 1,
               }}
             >
-              <div
+              <a
+                href="https://annotsav.enactus.in"
+                className="card"
                 style={{
                   border: "solid black",
                   borderRadius: 20,
@@ -72,7 +74,6 @@ export default function Projects() {
                     alignItems: "center",
                     justifyContent: "center",
                   }}
-                  className="card"
                 >
                   <p>
                     <b>Annotsav</b>
@@ -81,7 +82,7 @@ export default function Projects() {
                     yields.
                   </p>
                 </div>
-              </div>
+              </a>
             </div>
             <div
               style={{
@@ -92,6 +93,7 @@ export default function Projects() {
               }}
             >
               <div
+                className="card"
                 style={{
                   border: "solid black",
                   borderRadius: 20,
@@ -117,7 +119,6 @@ export default function Projects() {
                     alignItems: "center",
                     justifyContent: "center",
                   }}
-                  className="card"
                 >
                   <p>
                     <b>Agni</b>
@@ -147,6 +148,7 @@ export default function Projects() {
               }}
             >
               <div
+                className="card"
                 style={{
                   border: "solid black",
                   borderRadius: 20,
@@ -172,7 +174,6 @@ export default function Projects() {
                     alignItems: "center",
                     justifyContent: "center",
                   }}
-                  className="card"
                 >
                   <p>
                     <b>Clair</b>
@@ -192,6 +193,7 @@ export default function Projects() {
               }}
             >
               <div
+                className="card"
                 style={{
                   border: "solid black",
                   borderRadius: 20,
@@ -217,7 +219,6 @@ export default function Projects() {
                     alignItems: "center",
                     justifyContent: "center",
                   }}
-                  className="card"
                 >
                   <p>
                     <b>Urja</b>

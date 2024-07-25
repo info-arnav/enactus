@@ -149,3 +149,7 @@ footer {
   min-height: max(calc(100vh - 60px), 500px);
   background-color: rgb(163, 140, 49);
 }
+
+.card:hover {
+  box-shadow: 2px 2px 2px 0 grey;
+}
